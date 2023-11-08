@@ -1,0 +1,14 @@
+Bis auf das Erstellen der Lobby ist das gesamte Spiel per Maus spielbar, daher können wir sicher GUI und GUI (adv.) vergeben und "Chat Commander" nicht.
+Laut Wireshark werden die Regeln serverseitig geprüft. Die Regel-Überprüfung funkitoniert sehr gut. (speziell bei "UNO" sogar etwas zu gut ;-) )
+Der Sieger wird korrekt bestimmt und in High Score eingetragen, jedoch wird die High Score nicht permanent gspeichert.
+Kurzum vergeben wir GUI, GUI(adv.), Referee und Victory.
+Speziell positiv sind uns aufgefallen:
+Der Server antwortet mit Humor.
+Es gibt eine voll funktionsfähige Menüleiste.
+Das Spiel unterstützt 2-4 Spieler.
+Das GUI ist verständlich und einfach zu bedienen.
+Hinweise:
+Aus irgeneinem Grund ist es irgendwann nicht mehr möglich, eine Karte zu ziehen. (Der nächste Spieler kommt dann nicht zum Zug -> "Softlock")
+Es wäre vielleicht ratsam, wenn eine "Scrollbar" implementiert werden würde, sodass der Chat auch bei längeren Partien nicht überfüllt wird.
+Beim Schliessen des Fensters (per "exit" in der Menüleiste oder auch per "X") gibt der Server sehr viel Text aus. (der cmd text-buffer ist nach ca. 5 Sekunden bereits voll.)
+Eine Direktnachricht ohne vorher einen Spieler zu wählen, erzeugt momentan einen Fehler. Wäre es möglich, diesem abzufangen und im Chat eine Mitteilung disbezüglich zu machen? (z.B. "Please select whom to talk to, if you don't just want to talk to your monitor. :-)" )
