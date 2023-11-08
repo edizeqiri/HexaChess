@@ -6,12 +6,12 @@ HexaChess is a novel chess variant played on a hexagonal board, offering a fresh
 
 - **Innovative Gameplay**: Experience chess from a whole new perspective on a hexagonal board.
 - **Java Swing GUI**: A robust and responsive user interface for smooth gameplay.
-- **Multiplayer Support**: Play against friends or online opponents.
+- **Multiplayer Support**: Play against friends or online opponents. Up to 3 players.
 - **Score Tracking**: Keep track of your high scores and improve your strategy.
 
 ## Showcase
+<img width="600" alt="Field" src="https://github.com/edizeqiri/HexaChess/assets/89740646/a716858a-79d3-43fc-a9b3-0e078c675687">
 
-![Alt text](image.png)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
