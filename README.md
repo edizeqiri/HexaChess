@@ -16,3 +16,5 @@ HexaChess is a novel chess variant played on a hexagonal board, offering a fresh
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+It was done in a group of 4 in the course "Programmierprojekt" in my 2nd Semester - 2021
